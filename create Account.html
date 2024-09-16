@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <!-- Function calling, linking, and Title provision starts here -->
+    <title>SavageCrocs.in</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="savagecrocs logo.png">
+    <link rel="stylesheet" href="Create Account.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <script type="module" src="firebase-Auth.js"></script>
+    <!-- Function calling, linking, and Title provision ends here -->
+</head>
+<!-- Main Code starts from here -->
+<body style="background-color: whitesmoke;background-attachment: fixed;background-repeat: repeat-x;">
+    <!--Navigation Bar starts from here-->
+    <header>
+        <div class="navbar">
+            <ul>
+                <li>
+                    <a href="SavageCrocs.html"><img src="savagecrocs logo.png" width="40" height="40" alt="SavageCrocs Logo"></a>
+                </li>
+                <li>
+                    <div class="search-bar">
+                        <input type="search" placeholder="Search Apparels..." id="search" width="500px" style="width: 400px;">
+                        <i class="fa fa-search search-icon"></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropbutton">
+                        <a href="login.html" style="text-decoration: none;">
+                            <button class="dropbtn">
+                                <i class='bx bx-log-in'> Log in</i>
+                            </button>
+                        </a>
+                        <div class="drop-content">
+                            <a href="MyProfile.html">
+                                <i class="bx bx-user"> My Profile</i>
+                            </a>
+                            <a href="#">
+                                <i class="bx bxs-shopping-bag-alt"> Orders</i>
+                            </a>
+                            <a href="#">
+                                <i class="bx bx-gift"> Gift Cards</i>
+                            </a>
+                            <a href="#">
+                                <i class="bx bx-heart"> Wish List</i>
+                            </a>
+                            <a href="#">
+                                <i class="bx bxs-offer"> Offers</i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="Become My Seller.html" alt="Seller">
+                        <i class="bx bxs-business" style="font-size: 20px;"> Become A Seller</i>
+                    </a>
+                </li>
+                <li class="cart">
+                    <a href="cart.html" style="display: flex; align-items: center;">
+                        <i class="bx bx-cart"></i>
+                        <span>Cart</span>
+                    </a>
+                </li>
+                <li>
+                    <div class="dropbutton1">
+                        <a href="More.html" alt="More">
+                            <button class="dropbtn1">
+                                <i class='bx bx-dots-vertical-rounded' style="font-size: xx-large;"></i>
+                            </button>
+                        </a>
+                        <div class="drop-content1">
+                            <a href="#">
+                                <i class="bx bx-bell"> Notification Preference</i>
+                            </a>
+                            <a href="#">
+                                <i class="bx bx-support"> Customar Care</i>
+                            </a>
+                            <a href="#">
+                                <i class="bx bx-trending-up"> Advertise</i>
+                            </a>
+                            <a href="#">
+                                <i class="bx bx-download"> Download App</i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+<!----------------------------------------------- Main Content ---------------------------------------------------->
+    <main>
+        <section class="create-account">
+            <h2>Create Your SavageCrocs Account</h2>
+            <div class="messageDiv" id="signUpMessage" style="display: none;"></div>
+            <form id="contactForm" action="MyProfile.html" method="run">
+                <div class="input-group">
+                    <label for="full-name">Full Name</label>
+                    <input type="name" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <button type="signupbutton" class="signup-btn" id="submit-signup">Create Account</button>
+            </form>
+            <p>By creating an account, you agree to SavageCrocs's <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+            <p>Already have an account? <a href="login.html">Login here</a>.</p>
+        </section>
+    </main>
+<!----------------------------------------------- Main Content Ends ---------------------------------------------------->
+
+    <!-- Footer starts from here -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4 style="color: navy; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Company</h4>
+                        <ul>
+                            <li><a href="#" style="color: navy; text-decoration: none;">About Us</a></li>
+                            <li><a href="#" style="color: navy; text-decoration: none;">Our Services</a></li>
+                            <li><a href="#" style="color: navy; text-decoration: none;">Privacy Policy</a></li>
+                            <li><a href="#" style="color: navy; text-decoration: none;">Affiliate Program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4 style="color: navy; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Get Help</h4>
+                        <ul>
+                            <li><a href="#" style="color: navy; text-decoration: none;">FAQs</a></li>
+                            <li><a href="#" style="color: navy; text-decoration: none;">Shipping</a></li>
+                            <li><a href="#" style="color: navy; text-decoration: none;">Returns</a></li>
+                            <li><a href="#" style="color: navy; text-decoration: none;">Order Status</a></li>
+                            <li><a href="#" style="color: navy; text-decoration: none;">Payment Options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4 style="color: navy; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Merchandise</h4>
+                        <ul>
+                            <li><a href="#" style="color: navy; text-decoration: none;">Watches</a></li>
+                            <li><a href="#" style="color: navy; text-decoration: none;">T-Shirts</a></li>
+                            <li><a href="#" style="color: navy; text-decoration: none;">Footwear</a></li>
+                            <li><a href="#" style="color: navy; text-decoration: none;">Accessories</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4 style="color: navy; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Connect to Us</h4>
+                        <div class="social-links">
+                            <a href="#" style="color: navy; text-decoration: none;"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" style="color: navy; text-decoration: none;"><i class="fab fa-instagram"></i></a>
+                            <a href="#" style="color: navy; text-decoration: none;"><i class="fab fa-twitter"></i></a>
+                            <a href="#" style="color: navy; text-decoration: none;"><i class="fab fa-linkedin-in"></i></a>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

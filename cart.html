@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - SavageCrocs</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="icon" type="image/x-icon" href="savagecrocs logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="navbar">
+            <ul>
+                <a href="SavageCrocs.html"><li><img src="savagecrocs logo.png" width="50" height="50" alt="Logo"></li></a>
+                <li>
+                    <div class="search-bar">
+                        <input type="search" placeholder="Search..." id="search">
+                        <i class="fa fa-search search-icon"></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropbutton">
+                        <a href="login.html" style="text-decoration: none;">
+                            <button class="dropbtn">Login
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        </a>
+                        <div class="drop-content">
+                            <a href="#">My Profile</a>
+                            <a href="#">Orders</a>
+                            <a href="#">Gift Cards</a>
+                            <a href="#">Wish List</a>
+                            <a href="#">Offers</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="cart">
+                    <a href="cart.html" style="display: flex; align-items: center;">
+                        <img src="cart.png" width="50" height="50" alt="Cart">
+                        <span>Cart</span>
+                    </a>
+                </li>
+                <li><a href="Become My Seller.html" alt="Seller"><h2>Become A Seller</h2></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Cart Content -->
+    <main>
+        <div class="cart-container">
+            <h1>Your Cart</h1>
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="Product 1.png" alt="Product Image">
+                    <div class="item-details">
+                        <h2>Nike Air Shoes</h2>
+                        <p>Price: $49.99</p>
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="Product 2.png" alt="Product Image">
+                    <div class="item-details">
+                        <h2>Cool Hooodie</h2>
+                        <p>Price: $29.99</p>
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                </div>
+                <!-- More cart items -->
+            </div>
+            <div class="cart-summary">
+                <h2>Summary</h2>
+                <p>Total Items: 2</p>
+                <p>Total Price: $79.98</p>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-col">
+                    <h4>About Us</h4>
+                    <p>Nothing in HTML.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Customer Service</h4>
+                    <p>Contact us: support@savagecrocs.in</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <p>Facebook | Instagram | Twitter</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Subscribe</h4>
+                    <p>Sign up for our newsletter for latest updates and offers.</p>
+                </div>
+                <p>&copy; 2024 SavageCrocs.in</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
